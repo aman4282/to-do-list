@@ -1,0 +1,51 @@
+#todo-form{
+	display: inline;
+
+
+}
+.form-group{
+	margin-top: 5%;
+	display: inline-flex;
+	margin: 3%;
+	font-size: 1.3em;
+}
+#button{
+	
+	color: white;
+	background-color: red;
+
+
+}
+#button:hover{
+	color:black;
+	border-radius: 2px lime;
+
+}
+table {
+  border-collapse: separate;
+  border-spacing: 60px 30px;
+}
+th {
+  background-color: #4287f5;
+  color: white;
+}
+th,
+td {
+  width: 250px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+@media screen and (max-width: 760px){
+	#todo-form{
+		width: 100%;
+	}
+}
+
+@media screen (min-width: 0px) and (max-width: 320px) {
+	#todo-form{
+		width:100%;
+	}
+}
+
